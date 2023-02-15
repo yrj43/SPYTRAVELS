@@ -7,6 +7,7 @@ import themes from './theme';
 import Header from 'components/Header';
 import Landing from 'screens/Landing';
 import Booking from 'screens/booking';
+import Signup from 'screens/booking/Signup'
 import BoardingPass from 'screens/BoardingPass';
 import { reflow } from 'utils/transition';
 import { rgba } from 'utils/color';
@@ -60,6 +61,7 @@ function App() {
                           <Switch location={location}>
                             <Route exact path="/" component={Landing} />
                             <Route exact path={['/booking', '/booking/:step']} component={Booking} />
+ <Route path="/booking/Signup" component={Signup} />
                             <Route path="/boarding-pass" component={BoardingPass} />
                           </Switch>
                         </Suspense>

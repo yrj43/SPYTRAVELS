@@ -17,12 +17,12 @@ const navItems = [
     label: 'Bookings',
   },
   {
-    path: '/team',
-    label: 'Team',
+    path: '/Booking/signup',
+    label: 'Signup',
   },
   {
-    path: '/account',
-    label: 'Account',
+    path: '/Admin',
+    label: 'Admin',
   },
 ];
 
