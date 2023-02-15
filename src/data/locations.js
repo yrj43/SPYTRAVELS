@@ -1,4 +1,104 @@
 export default [
+ {
+    city: 'Chennai',
+    airport: 'MAS',
+  },
+  {
+    city: 'Coimbatore',
+    airport: 'CBJ',
+  },
+ {
+    city: 'Trichy',
+    airport: 'TAS',
+  }, {
+    city: 'Srinagar',
+    airport: 'SXR',
+  }, {
+    city: 'Surat',
+    airport: 'STV',
+  }, {
+    city: 'Tiruvandram',
+    airport: 'TRV',
+  }, {
+    city: 'Tuticorin',
+    airport: 'TCR',
+  }, {
+    city: 'Varanasi',
+    airport: 'VNS',
+  }, {
+    city: 'Vishakapatnam',
+    airport: 'VTZ',
+  }, {
+    city: 'Kolkata',
+    airport: 'CCU',
+  }, {
+    city: 'Mysore',
+    airport: 'MYQ',
+  }, {
+    city: 'Madurai',
+    airport: 'IXM',
+  }, {
+    city: 'PNQ',
+    airport: 'Pune',
+  }, {
+    city: 'Kozhikode',
+    airport: 'CCJ',
+  }, {
+    city: 'Bhuntar Kullu manali',
+    airport: 'KUU',
+  }, {
+    city: 'Kanpur',
+    airport: 'KNU',
+  }, {
+    city: 'Jodhpur',
+    airport: 'JDH',
+  }, {
+    city: 'Kailashahar',
+    airport: 'IXH',
+  }, {
+    city: 'New Delhi',
+    airport: 'DEL',
+  }, {
+    city: 'Hyderabad',
+    airport: 'HYD',
+  }, {
+    city: 'Jabalpur',
+    airport: 'JLR',
+  }, {
+    city: 'Kochi',
+    airport: 'COK',
+  }, {
+    city: 'Udaipur',
+    airport: 'UDR',
+  }, {
+    city: 'Aurangabad',
+    airport: 'IXU',
+  }, {
+    city: 'Chandigarh',
+    airport: 'IXC',
+  }, {
+    city: 'Mumbai',
+    airport: 'BOM',
+  },
+ {
+    city: 'Bhopal',
+    airport: 'BHO',
+  }, {
+    city: 'Bangalore',
+    airport: 'BLR',
+  }, {
+    city: 'Allahabad',
+    airport: 'IXD',
+  }, {
+    city: 'Mangalore',
+    airport: 'IXE',
+  }, {
+    city: 'Lucknow',
+    airport: 'LKO',
+  }, {
+    city: 'Ahmedabad',
+    airport: 'AMD',
+  }, 
   {
     city: 'San Francisco',
     airport: 'SFO',
@@ -63,13 +163,5 @@ export default [
   {
     city: 'Christchurch',
     airport: 'CHC',
-  },
- {
-    city: 'Chennai',
-    airport: 'MAS',
-  },
- {
-    city: 'Trichy',
-    airport: 'TAS',
   },
 ];

@@ -2,22 +2,22 @@ export default {
   departures: [
     {
       id: 'f1',
-      price: 47700,
+      price: 9000,
       stops: 0,
       from: {
-        city: 'Sydney',
+        city: 'Chennai',
         airport: 'SYD',
         time: '10:30',
       },
       to: {
-        city: 'San Francisco',
-        airport: 'SFO',
+        city: 'Delhi',
+        airport: 'DLH',
         time: '23:40',
       },
     },
     {
       id: 'f2',
-      price: 57600,
+      price: 12000,
       stops: 1,
       from: {
         city: 'Sydney',
@@ -32,7 +32,7 @@ export default {
     },
     {
       id: 'f3',
-      price: 77400,
+      price: 11189,
       stops: 2,
       from: {
         city: 'Sydney',
@@ -47,7 +47,7 @@ export default {
     },
     {
       id: 'f4',
-      price: 89100,
+      price: 8000,
       stops: 0,
       from: {
         city: 'Sydney',
@@ -62,8 +62,8 @@ export default {
     },
     {
       id: 'f5',
-      price: 98700,
-      stops: 3,
+      price: 9700,
+      stops: 0,
       from: {
         city: 'Sydney',
         airport: 'SYD',
@@ -78,19 +78,86 @@ export default {
  {
       id: 'f6',
       price: 7400,
-      stops: 2,
+      stops: 1,
       from: {
         city: 'Chennai',
         airport: 'MAS',
-        time: '15:45',
+        time: '17:45',
       },
       to: {
         city: 'Trichy',
         airport: 'TSA',
-        time: '18:27',
+        time: '19:27',
       },
     },
+ {
+      id: 'f7',
+      price: 6200,
+      stops: 1,
+      from: {
+        city: 'Chennai',
+        airport: 'MAS',
+        time: '05:05',
+      },
+      to: {
+        city: 'Trichy',
+        airport: 'TSA',
+        time: '07:05',
+      },
+    },
+ {
+      id: 'f8',
+      price: 6400,
+      stops: 1,
+      from: {
+        city: 'Chennai',
+        airport: 'MAS',
+        time: '07:15',
+      },
+      to: {
+        city: 'Trichy',
+        airport: 'TSA',
+        time: '09:27',
+      },
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   ],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   returns: [
     {
       id: 'r1',

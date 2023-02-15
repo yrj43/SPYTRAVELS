@@ -1,7 +1,7 @@
 // Fake user data (not actually storing real card details here lol)
 
 export default {
-  firstName: 'Yuvaraj',
+  firstName: 'Onboaring',
   lastName: 'Irwin',
   email: 'charlie.irwin@sickvfx.com',
   card: {
