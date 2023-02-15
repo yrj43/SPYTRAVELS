@@ -7,14 +7,19 @@
 </p>
 </br>
 </br><p align="center">
- <h2 align="center">CLICK THIS</h2>
+ <h2 align="center">CLICK THIS FOR LIVE DEMO</h2>
 <p align="center">
 <a href="https://spytraveljjg.netlify.app/">
   <img src="https://user-images.githubusercontent.com/78921146/208353391-95c550ad-5cc2-440e-a212-3ce94a6b90d7.png" alt="Give india logo" width="100" />
 </a>
 </p>
 
-
+ <h2 align="center">CLICK THIS FOR ADMIN LOGIN</h2>
+<p align="center">
+<a href="https://one2six.rf.gd/admin>
+  <img src="https://user-images.githubusercontent.com/78921146/208353391-95c550ad-5cc2-440e-a212-3ce94a6b90d7.png" alt="Give india logo" width="100" />
+</a>
+</p>
 
 A Flight ticket booking application made using MERN Stack (MongoDB, Express js, React js, Node js)
 
