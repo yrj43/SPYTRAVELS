@@ -7,6 +7,8 @@ import { TransitionGroup, Transition } from 'react-transition-group';
 import BookingDetails from './BookingDetails';
 import BookingFlights from './BookingFlights';
 import BookingPassengers from './BookingPassengers';
+import Signup from './Signup';
+import Admin from './Admin';
 import BookingPayment from './BookingPayment';
 import { usePrevious } from 'hooks';
 import BookingSummaryCard from './BookingSummaryCard';
@@ -27,6 +29,10 @@ const routes = [
     component: BookingPassengers,
   },
   {
+    path: '/booking/Signup',
+    component: Signup,
+  },
+  {
     path: '/booking/payment',
     component: BookingPayment,
   },
@@ -45,6 +51,7 @@ export default function Booking(props) {
   const parentDirection = location.pathname === '/booking' ? 1 : -1;
   const showSummary = step === 'passengers' || step === 'payment';
   const showSearchDetails = step === 'flights';
+  const Signup = step === 'signup';
 
   const handleScroll = event => {
     dispatch({ type: 'setScrolled', value: event.target.scrollTop > 20 });

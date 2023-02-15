@@ -24,7 +24,7 @@ export default function BookingFlights(props) {
   const { from, to, passengers, departureDate, returnDate, oneWay } = bookingDetails;
   const history = useHistory();
   const wrapperRef = useRef();
-  const nextRoute = passengers > 1 ? '/booking/passengers' : '/booking/payment';
+  const nextRoute = passengers > 1 ? '/booking/passengers' : '/booking/signup';
   const totalPrice = (departureFlight.price + (oneWay ? 0 : returnFlight.price)) * passengers;
   const formattedPrice = formatMoney(totalPrice);
   useScrollRestore(status);
