@@ -9,6 +9,8 @@ import BookingFlights from './BookingFlights';
 import BookingPassengers from './BookingPassengers';
 import Signup from './Signup';
 import Admin from './Admin';
+import Seatbook from './Seatbook';
+
 import BookingPayment from './BookingPayment';
 import { usePrevious } from 'hooks';
 import BookingSummaryCard from './BookingSummaryCard';
@@ -32,6 +34,14 @@ const routes = [
     path: '/booking/Signup',
     component: Signup,
   },
+ {
+    path: '/booking/Admin',
+    component: Admin,
+  },
+ {
+    path: '/booking/Seatbook',
+    component: Seatbook,
+  },
   {
     path: '/booking/payment',
     component: BookingPayment,
@@ -52,7 +62,8 @@ export default function Booking(props) {
   const showSummary = step === 'passengers' || step === 'payment';
   const showSearchDetails = step === 'flights';
   const Signup = step === 'signup';
-
+const Admin = step === 'admin';
+const Seatbook = step === 'seatbook';
   const handleScroll = event => {
     dispatch({ type: 'setScrolled', value: event.target.scrollTop > 20 });
   };

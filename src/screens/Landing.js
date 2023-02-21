@@ -21,7 +21,7 @@ export default function Landing(props) {
               <span>Welcome </span>
             </LandingHeadingWord>
             <LandingHeadingWord status={status} index={2}>
-              <span>back, </span>
+              <span>To, </span>
             </LandingHeadingWord>
             <LandingHeadingWord status={status} index={3}>
               <span>{user.firstName}</span>

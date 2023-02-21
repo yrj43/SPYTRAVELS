@@ -70,7 +70,7 @@ export default function BookingPayment(props) {
                   onClick={processPayment}
                   isLoading={processing || status === 'exiting'}
                 >
-                  {`Pay ${formattedPrice} INR`}
+                  {`Pay  INR`}
                 </Button>
               </SheetFormActions>
             </PaymentSheetForm>

@@ -7,7 +7,9 @@ import themes from './theme';
 import Header from 'components/Header';
 import Landing from 'screens/Landing';
 import Booking from 'screens/booking';
-import Signup from 'screens/booking/Signup'
+import Signup from 'screens/booking/Signup';
+import Seatbook from 'screens/booking/Seatbook';
+
 import BoardingPass from 'screens/BoardingPass';
 import { reflow } from 'utils/transition';
 import { rgba } from 'utils/color';

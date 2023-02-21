@@ -47,7 +47,7 @@ export default function Signup(props) {
                               <input type="password" name="logpass" className="form-style" placeholder="Your Password" id="logpass" autoComplete="off" />
                               <i className="input-icon uil uil-lock-alt" />
                             </div>
-                            <a href="/booking/payment" className="btn mt-4">submit</a>
+                            <a href="/booking/seatbook" className="btn mt-4">submit</a>
                             <p className="mb-0 mt-4 text-center"><a href="#0" className="link">Forgot your password?</a></p>
                           </div>
                         </div>
@@ -68,7 +68,7 @@ export default function Signup(props) {
                               <input type="password" name="logpass" className="form-style" placeholder="Your Password" id="logpass" autoComplete="off" />
                               <i className="input-icon uil uil-lock-alt" />
                             </div>
-                            <a href="/booking/payment" className="btn mt-4">submit</a>
+                            <a href="/booking/seatbook" className="btn mt-4">submit</a>
                           </div>
                         </div>
                       </div>
