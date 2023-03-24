@@ -16,7 +16,28 @@
 
  <h2 align="center">CLICK THIS FOR ADMIN LOGIN</h2>
 <p align="center">
-<a href="http://one2six.rf.gd/admin">
+<a href="http://spytravelsadmin.rf.gd">
+  <img src="https://user-images.githubusercontent.com/78921146/208353391-95c550ad-5cc2-440e-a212-3ce94a6b90d7.png" alt="Gs" width="100" />
+</a>
+</p>
+
+<h2 align="center">CLICK THIS FOR Mongo Data card preview</h2>
+<p align="center">
+<a href="http://spytravelsadmin.rf.gd/mongodb/">
+  <img src="https://user-images.githubusercontent.com/78921146/208353391-95c550ad-5cc2-440e-a212-3ce94a6b90d7.png" alt="Gs" width="100" />
+</a>
+</p>
+
+<h2 align="center">CLICK THIS FOR Webscrapping api panel</h2>
+<p align="center">
+<a href="https://thingspeak.com/apps/thinghttp">
+  <img src="https://user-images.githubusercontent.com/78921146/208353391-95c550ad-5cc2-440e-a212-3ce94a6b90d7.png" alt="Gs" width="100" />
+</a>
+</p>
+
+<h2 align="center">CLICK THIS FOR Raw Mongo db atlas Panel</h2>
+<p align="center">
+<a href="https://account.mongodb.com/account/login">
   <img src="https://user-images.githubusercontent.com/78921146/208353391-95c550ad-5cc2-440e-a212-3ce94a6b90d7.png" alt="Gs" width="100" />
 </a>
 </p>
